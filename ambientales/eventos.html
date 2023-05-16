@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Eventos</title>
+		<link rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+			}
+	
+			header {
+				background-color: #2c7a7b;
+			}
+	
+			.navbar-brand {
+				display: flex;
+				align-items: center;
+			}
+	
+			.navbar-nav .nav-link {
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+	
+			.jumbotron {
+				background-color: #f8f9fa;
+				padding: 2rem 1rem;
+			}
+	
+			footer {
+				background-color: #2c7a7b;
+				color: #fff;
+			}
+			.bg-custom {
+                background-color: #0896d8;
+              }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+				<a class="navbar-brand" href="eventos.html">
+					GuauMiau
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="bienvenido.php">Inicio</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="eventos.html">Eventos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="album.html">Fotos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="informacion2.html">Información</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="capacitacion2.html">Capacitación</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="donaciones2.html">Donaciones</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contacto2.html">Contacto</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="comentarios.html">Comentarios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="logout.php">Cerrar Sesion</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="eventos">
+				<div class="container">
+					<h2>Próximos eventos</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="card">
+								<img class="card-img-top" src="img/vacunacion_gato.png" alt="Evento 1">
+								<div class="card-body">
+									<h5 class="card-title">Evento 1</h5>
+									<p class="card-text">Vacunacion de gatos para prevenir enfermedades</p>
+									<p class="card-text"><strong>Fecha:</strong> 20/05/2023</p>
+									<p class="card-text"><strong>Hora:</strong> 18:00 hs</p>
+									<a href="#" class="btn btn-primary">Más información</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="card">
+								<img class="card-img-top" src="img/esterilizacion_perro.png" alt="Evento 2">
+								<div class="card-body">
+									<h5 class="card-title">Evento 2</h5>
+									<p class="card-text">Esterelizacion de perros para prevenir que se reproduzcan</p>
+									<p class="card-text"><strong>Fecha:</strong> 21/05/2023</p>
+									<p class="card-text"><strong>Hora:</strong> 14:00 hs</p>
+									<a href="#" class="btn btn-primary">Más información</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="container-fluid bg-dark text-white text-center py-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>Boulevard Belisario Domínguez Km 1081, sn, Terán, Tuxtla Gutiérrez, Chiapas, México</p>
+					</div>
+					<div class="col-md-6">
+						<p>&copy; GuauMiau Derechos reservados 2023</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
